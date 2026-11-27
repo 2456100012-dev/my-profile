@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thông tin liên hệ và gửi lời nhắn.">
+  <title>Liên hệ | My Space</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span> MY SPACE</a>
+    <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+    <nav class="nav"><a href="index.html">Trang chủ</a><a href="about.html">Giới thiệu</a><a class="active" href="contact.html">Liên hệ</a></nav>
+  </header>
+
+  <main class="wrap page-content contact-page">
+    <div class="page-heading"><p class="eyebrow">LET'S CONNECT</p><h1>Cùng nhau tạo nên<br><span>điều thú vị.</span></h1><p class="lead">Nếu bạn muốn trao đổi, chia sẻ ý tưởng hoặc đơn giản là gửi một lời chào, hãy kết nối với mình nhé.</p></div>
+    <section class="contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">03 / CONTACT DETAILS</p><h2>Thông tin liên hệ</h2>
+        <div class="contact-line"><span class="contact-icon">✉</span><div><small>EMAIL</small><p>Bổ sung email của bạn</p></div></div>
+        <div class="contact-line"><span class="contact-icon">⌕</span><div><small>ĐIỆN THOẠI</small><p>Bổ sung số điện thoại (nếu muốn)</p></div></div>
+        <div class="contact-line"><span class="contact-icon">◎</span><div><small>MẠNG XÃ HỘI</small><p>Bổ sung liên kết mạng xã hội (nếu muốn)</p></div></div>
+        <div class="contact-note">Bạn có thể bổ sung thông tin liên hệ của mình tại trang này khi sẵn sàng. ✦</div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <h2>Gửi lời nhắn</h2>
+        <label for="name">Tên của bạn</label><input id="name" name="name" placeholder="Bạn tên là gì?" required>
+        <label for="email">Email</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="message">Lời nhắn</label><textarea id="message" name="message" rows="5" placeholder="Viết lời nhắn tại đây..." required></textarea>
+        <button class="button primary submit-button" type="submit">Tạo email gửi đi ↗</button>
+        <p class="form-note" id="formNote">Nút sẽ mở ứng dụng email trên thiết bị của bạn.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© 2026 Bảo Duy</span><span>Made with curiosity & care ✦</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
